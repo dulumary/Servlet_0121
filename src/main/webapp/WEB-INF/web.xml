@@ -41,6 +41,17 @@
 		<servlet-name>ServletTest02</servlet-name>
 		<url-pattern>/servlet/test02</url-pattern>
 	</servlet-mapping>
+
+<!-- 	
+	<filter>
+		<filter-name>CharacterFilter</filter-name>
+		<filter-class>com.marondal.common.CharacterEncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	 -->
 	
 
 </web-app>
