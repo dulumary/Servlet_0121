@@ -61,7 +61,7 @@
 							//if(pointFilter == null || point > 4.0) {
 								
 							// 포인터 필터가 선택되었고, 4.0 이하면 보여주지 말아라
-							if(pointFilter.equals("true") && point <= 4.0) {
+							if(pointFilter != null && pointFilter.equals("true") && point <= 4.0) {
 								continue;	
 							}
 							
